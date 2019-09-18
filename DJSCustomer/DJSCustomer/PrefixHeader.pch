@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  DJSCustomer
+//
+//  Created by 夷海科技 on 2019/9/16.
+//  Copyright © 2019 夷海科技. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ViewController.h"
+
+#import "LoginViewController.h"
+
+#import "BaseViewController.h"
+
+
+
+
+#define ScreenW ([UIScreen mainScreen].bounds.size.width)
+#define ScreenH ([UIScreen mainScreen].bounds.size.height)
+
+// 定义frame 坐标
+#define FrameRect (CGRectMake(0, 64, ScreenW, ScreenH - 64 - 49) )
+
+
+#define AnimationTime  (0.6f)
+
+#define Kaccess_token ([[NSUserDefaults standardUserDefaults] objectForKey:@"access_token"])
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+///Users/yihaikeji/Desktop/iphone_project/DJSCustomer/DJSCustomer/classes/Other/PrefixHeader.pch
+///Users/yihaikeji/Desktop/iphone_project/DJSCustomer/DJSCustomer/classes/Other/PrefixHeader.pch
+///Users/yihaikeji/Desktop/iphone_project/DJSCustomer/DJSCustomer/PrefixHeader.pch
+//Users/yihaikeji/Desktop/iphone_project/DJSCustomer/DJSCustomer/PrefixHeader.pch'
+
+
+///Users/yihaikeji/Desktop/iphone_project/DJSCustomer/PrefixHeader.pch
