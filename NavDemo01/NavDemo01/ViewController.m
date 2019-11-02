@@ -25,6 +25,8 @@
     
     UILabel *lbale = [[UILabel alloc] init];
     
+    [self.view addSubview:lbale];
+    
     self.view.backgroundColor = [UIColor orangeColor];
     
 //    [self setNav];
