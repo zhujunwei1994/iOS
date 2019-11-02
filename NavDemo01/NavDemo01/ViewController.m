@@ -23,6 +23,8 @@
     screen_width = self.view.frame.size.width;
     
     
+    UILabel *lbale = [[UILabel alloc] init];
+    
     self.view.backgroundColor = [UIColor orangeColor];
     
 //    [self setNav];
