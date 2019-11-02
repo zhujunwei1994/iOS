@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231BE12490AF63A67B7530B4 /* libPods-DJSCustomerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 286D3BF0AAB5D7A5359E238C /* libPods-DJSCustomerTests.a */; };
 		D001506623306DBE005559DD /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D001506523306DBE005559DD /* HomePageViewController.m */; };
 		D001508E23307510005559DD /* DIScoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D001508D23307510005559DD /* DIScoveryViewController.m */; };
 		D00150912330752B005559DD /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00150902330752B005559DD /* ShoppingViewController.m */; };
@@ -22,13 +23,19 @@
 		D00150B923307884005559DD /* UIImage+ZCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D00150B223307884005559DD /* UIImage+ZCImage.m */; };
 		D00150BA23307884005559DD /* ZCUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00150B323307884005559DD /* ZCUIView.m */; };
 		D00150D32331BCDD005559DD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00150D22331BCDD005559DD /* BaseViewController.m */; };
+		D03DE3552334A9F000DF448D /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03DE3542334A9F000DF448D /* BaseTableViewController.m */; };
+		D03DE3582334AAA800DF448D /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03DE3572334AAA800DF448D /* HomeHeaderView.m */; };
+		D03DE35B2334BCCC00DF448D /* HomeMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03DE35A2334BCCC00DF448D /* HomeMiddleView.m */; };
+		D03DE3612334BE3600DF448D /* HomeButtonCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = D03DE3602334BE3600DF448D /* HomeButtonCustom.m */; };
+		D03DE3642334CC8C00DF448D /* HomeBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03DE3632334CC8C00DF448D /* HomeBottomView.m */; };
 		D04D1F89232F92C7007ACEB9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04D1F87232F92C7007ACEB9 /* LoginViewController.m */; };
 		D04D1F8A232F92C7007ACEB9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04D1F88232F92C7007ACEB9 /* LoginViewController.xib */; };
 		D09C7E14232F679E00C625A9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09C7E13232F679E00C625A9 /* Launch Screen.storyboard */; };
+		D0BD956D233855AC004C366D /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD956C233855AC004C366D /* HomeTableViewCell.m */; };
+		D0BD9570233855C0004C366D /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD956F233855C0004C366D /* BaseTableViewCell.m */; };
+		D0BD9573233868E8004C366D /* HomeCellMode.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD9572233868E8004C366D /* HomeCellMode.m */; };
 		D0FB434A232F2EBD007BD6AB /* DJSCustomer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0FB4348232F2EBD007BD6AB /* DJSCustomer.xcdatamodeld */; };
 		D0FB434C232F2EBE007BD6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FB434B232F2EBE007BD6AB /* Assets.xcassets */; };
-		D0FB435C232F2EBE007BD6AB /* DJSCustomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FB435B232F2EBE007BD6AB /* DJSCustomerTests.m */; };
-		D0FB4367232F2EBE007BD6AB /* DJSCustomerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FB4366232F2EBE007BD6AB /* DJSCustomerUITests.m */; };
 		D0FB4395232F3471007BD6AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FB4387232F3471007BD6AB /* ViewController.m */; };
 		D0FB4396232F3471007BD6AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FB4388232F3471007BD6AB /* main.m */; };
 		D0FB4397232F3471007BD6AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FB4389232F3471007BD6AB /* AppDelegate.m */; };
@@ -52,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13232DBC6BC43DFA6172D8D7 /* Pods-DJSCustomerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJSCustomerTests.debug.xcconfig"; path = "Target Support Files/Pods-DJSCustomerTests/Pods-DJSCustomerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		286D3BF0AAB5D7A5359E238C /* libPods-DJSCustomerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJSCustomerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7161B2C429215EC1F0B5B136 /* Pods-DJSCustomerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJSCustomerTests.release.xcconfig"; path = "Target Support Files/Pods-DJSCustomerTests/Pods-DJSCustomerTests.release.xcconfig"; sourceTree = "<group>"; };
 		D001506423306DBE005559DD /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		D001506523306DBE005559DD /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		D001508C23307510005559DD /* DIScoveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIScoveryViewController.h; sourceTree = "<group>"; };
@@ -82,21 +92,33 @@
 		D00150B523307884005559DD /* UIImageView+ZCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZCImageView.h"; sourceTree = "<group>"; };
 		D00150D12331BCDD005559DD /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		D00150D22331BCDD005559DD /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D03DE3532334A9F000DF448D /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		D03DE3542334A9F000DF448D /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		D03DE3562334AAA800DF448D /* HomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
+		D03DE3572334AAA800DF448D /* HomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
+		D03DE3592334BCCC00DF448D /* HomeMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeMiddleView.h; sourceTree = "<group>"; };
+		D03DE35A2334BCCC00DF448D /* HomeMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeMiddleView.m; sourceTree = "<group>"; };
+		D03DE35F2334BE3600DF448D /* HomeButtonCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeButtonCustom.h; sourceTree = "<group>"; };
+		D03DE3602334BE3600DF448D /* HomeButtonCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeButtonCustom.m; sourceTree = "<group>"; };
+		D03DE3622334CC8C00DF448D /* HomeBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeBottomView.h; sourceTree = "<group>"; };
+		D03DE3632334CC8C00DF448D /* HomeBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeBottomView.m; sourceTree = "<group>"; };
 		D04D1F86232F92C7007ACEB9 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		D04D1F87232F92C7007ACEB9 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D04D1F88232F92C7007ACEB9 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		D0901E9B232F8908009A8FF1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D09C7E13232F679E00C625A9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D0BD956B233855AC004C366D /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		D0BD956C233855AC004C366D /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		D0BD956E233855C0004C366D /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		D0BD956F233855C0004C366D /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		D0BD9571233868E8004C366D /* HomeCellMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCellMode.h; sourceTree = "<group>"; };
+		D0BD9572233868E8004C366D /* HomeCellMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellMode.m; sourceTree = "<group>"; };
 		D0FB433C232F2EBD007BD6AB /* DJSCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJSCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FB4349232F2EBD007BD6AB /* DJSCustomer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DJSCustomer.xcdatamodel; sourceTree = "<group>"; };
 		D0FB434B232F2EBE007BD6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0FB4350232F2EBE007BD6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FB4357232F2EBE007BD6AB /* DJSCustomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJSCustomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0FB435B232F2EBE007BD6AB /* DJSCustomerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSCustomerTests.m; sourceTree = "<group>"; };
-		D0FB435D232F2EBE007BD6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FB4362232F2EBE007BD6AB /* DJSCustomerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJSCustomerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0FB4366232F2EBE007BD6AB /* DJSCustomerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSCustomerUITests.m; sourceTree = "<group>"; };
-		D0FB4368232F2EBE007BD6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FB4382232F3471007BD6AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0FB4387232F3471007BD6AB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D0FB4388232F3471007BD6AB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231BE12490AF63A67B7530B4 /* libPods-DJSCustomerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +253,10 @@
 			children = (
 				D00150D12331BCDD005559DD /* BaseViewController.h */,
 				D00150D22331BCDD005559DD /* BaseViewController.m */,
+				D03DE3532334A9F000DF448D /* BaseTableViewController.h */,
+				D03DE3542334A9F000DF448D /* BaseTableViewController.m */,
+				D0BD956E233855C0004C366D /* BaseTableViewCell.h */,
+				D0BD956F233855C0004C366D /* BaseTableViewCell.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,10 +283,10 @@
 			isa = PBXGroup;
 			children = (
 				D0FB433E232F2EBD007BD6AB /* DJSCustomer */,
-				D0FB435A232F2EBE007BD6AB /* DJSCustomerTests */,
-				D0FB4365232F2EBE007BD6AB /* DJSCustomerUITests */,
 				D0FB433D232F2EBD007BD6AB /* Products */,
 				D0FB4374232F3471007BD6AB /* classes */,
+				E5377EE74745478164C144E4 /* Pods */,
+				D9867BD0324069CB9CF51A62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -282,24 +309,6 @@
 				D0FB4348232F2EBD007BD6AB /* DJSCustomer.xcdatamodeld */,
 			);
 			path = DJSCustomer;
-			sourceTree = "<group>";
-		};
-		D0FB435A232F2EBE007BD6AB /* DJSCustomerTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0FB435B232F2EBE007BD6AB /* DJSCustomerTests.m */,
-				D0FB435D232F2EBE007BD6AB /* Info.plist */,
-			);
-			path = DJSCustomerTests;
-			sourceTree = "<group>";
-		};
-		D0FB4365232F2EBE007BD6AB /* DJSCustomerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D0FB4366232F2EBE007BD6AB /* DJSCustomerUITests.m */,
-				D0FB4368232F2EBE007BD6AB /* Info.plist */,
-			);
-			path = DJSCustomerUITests;
 			sourceTree = "<group>";
 		};
 		D0FB4374232F3471007BD6AB /* classes */ = {
@@ -410,6 +419,8 @@
 		D0FB437F232F3471007BD6AB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D0BD9571233868E8004C366D /* HomeCellMode.h */,
+				D0BD9572233868E8004C366D /* HomeCellMode.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -417,6 +428,16 @@
 		D0FB4380232F3471007BD6AB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D03DE3562334AAA800DF448D /* HomeHeaderView.h */,
+				D03DE3572334AAA800DF448D /* HomeHeaderView.m */,
+				D03DE3592334BCCC00DF448D /* HomeMiddleView.h */,
+				D03DE35A2334BCCC00DF448D /* HomeMiddleView.m */,
+				D03DE35F2334BE3600DF448D /* HomeButtonCustom.h */,
+				D03DE3602334BE3600DF448D /* HomeButtonCustom.m */,
+				D03DE3622334CC8C00DF448D /* HomeBottomView.h */,
+				D03DE3632334CC8C00DF448D /* HomeBottomView.m */,
+				D0BD956B233855AC004C366D /* HomeTableViewCell.h */,
+				D0BD956C233855AC004C366D /* HomeTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -548,6 +569,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D9867BD0324069CB9CF51A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				286D3BF0AAB5D7A5359E238C /* libPods-DJSCustomerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5377EE74745478164C144E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13232DBC6BC43DFA6172D8D7 /* Pods-DJSCustomerTests.debug.xcconfig */,
+				7161B2C429215EC1F0B5B136 /* Pods-DJSCustomerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -572,6 +611,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FB436E232F2EBE007BD6AB /* Build configuration list for PBXNativeTarget "DJSCustomerTests" */;
 			buildPhases = (
+				D452A4E38C5FA64976E40BA1 /* [CP] Check Pods Manifest.lock */,
 				D0FB4353232F2EBE007BD6AB /* Sources */,
 				D0FB4354232F2EBE007BD6AB /* Frameworks */,
 				D0FB4355232F2EBE007BD6AB /* Resources */,
@@ -673,21 +713,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D452A4E38C5FA64976E40BA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJSCustomerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0FB4338232F2EBD007BD6AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03DE3612334BE3600DF448D /* HomeButtonCustom.m in Sources */,
 				D0FB4397232F3471007BD6AB /* AppDelegate.m in Sources */,
 				D00150D32331BCDD005559DD /* BaseViewController.m in Sources */,
 				D00150912330752B005559DD /* ShoppingViewController.m in Sources */,
 				D00150BA23307884005559DD /* ZCUIView.m in Sources */,
 				D00150A72330774B005559DD /* ZCTabBar.m in Sources */,
 				D001509723307703005559DD /* OrderViewController.m in Sources */,
+				D0BD9573233868E8004C366D /* HomeCellMode.m in Sources */,
 				D00150A42330774B005559DD /* ZCTabbarController.m in Sources */,
 				D00150B623307884005559DD /* UIBarButtonItem+ZCCustom.m in Sources */,
+				D0BD9570233855C0004C366D /* BaseTableViewCell.m in Sources */,
 				D04D1F89232F92C7007ACEB9 /* LoginViewController.m in Sources */,
 				D001508E23307510005559DD /* DIScoveryViewController.m in Sources */,
+				D03DE3552334A9F000DF448D /* BaseTableViewController.m in Sources */,
 				D00150A62330774B005559DD /* ZCTabBarItem.m in Sources */,
 				D00150B823307884005559DD /* UIImageView+ZCImageView.m in Sources */,
 				D00150B723307884005559DD /* NSString+ZCString.m in Sources */,
@@ -697,6 +766,10 @@
 				D0015094233076E5005559DD /* MineViewController.m in Sources */,
 				D0FB4396232F3471007BD6AB /* main.m in Sources */,
 				D0FB434A232F2EBD007BD6AB /* DJSCustomer.xcdatamodeld in Sources */,
+				D03DE35B2334BCCC00DF448D /* HomeMiddleView.m in Sources */,
+				D0BD956D233855AC004C366D /* HomeTableViewCell.m in Sources */,
+				D03DE3582334AAA800DF448D /* HomeHeaderView.m in Sources */,
+				D03DE3642334CC8C00DF448D /* HomeBottomView.m in Sources */,
 				D00150A52330774B005559DD /* ZCNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -705,7 +778,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FB435C232F2EBE007BD6AB /* DJSCustomerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,7 +785,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FB4367232F2EBE007BD6AB /* DJSCustomerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,6 +958,7 @@
 		};
 		D0FB436F232F2EBE007BD6AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13232DBC6BC43DFA6172D8D7 /* Pods-DJSCustomerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -906,6 +978,7 @@
 		};
 		D0FB4370232F2EBE007BD6AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7161B2C429215EC1F0B5B136 /* Pods-DJSCustomerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

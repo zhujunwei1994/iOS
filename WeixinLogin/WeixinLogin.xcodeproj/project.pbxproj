@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71E853BCA47F899B7F665D7B /* libPods-WeixinLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2863B1DF38852E743D02C5 /* libPods-WeixinLogin.a */; };
+		D099A381234097ED00C45527 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D099A380234097ED00C45527 /* AppDelegate.m */; };
+		D099A384234097ED00C45527 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D099A383234097ED00C45527 /* ViewController.m */; };
+		D099A387234097ED00C45527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D099A385234097ED00C45527 /* Main.storyboard */; };
+		D099A389234097EF00C45527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D099A388234097EF00C45527 /* Assets.xcassets */; };
+		D099A38C234097EF00C45527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D099A38A234097EF00C45527 /* LaunchScreen.storyboard */; };
+		D099A38F234097EF00C45527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D099A38E234097EF00C45527 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		740FD9023FD273D1607BFDFC /* Pods-WeixinLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeixinLogin.debug.xcconfig"; path = "Target Support Files/Pods-WeixinLogin/Pods-WeixinLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2863B1DF38852E743D02C5 /* libPods-WeixinLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeixinLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		976F670B4C006CE0D3B5F080 /* Pods-WeixinLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeixinLogin.release.xcconfig"; path = "Target Support Files/Pods-WeixinLogin/Pods-WeixinLogin.release.xcconfig"; sourceTree = "<group>"; };
+		D099A37C234097ED00C45527 /* WeixinLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeixinLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D099A37F234097ED00C45527 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D099A380234097ED00C45527 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D099A382234097ED00C45527 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D099A383234097ED00C45527 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D099A386234097ED00C45527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D099A388234097EF00C45527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D099A38B234097EF00C45527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D099A38D234097EF00C45527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D099A38E234097EF00C45527 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D099A379234097ED00C45527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E853BCA47F899B7F665D7B /* libPods-WeixinLogin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5290A2B7CDE8F726DA23B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B2863B1DF38852E743D02C5 /* libPods-WeixinLogin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D099A373234097ED00C45527 = {
+			isa = PBXGroup;
+			children = (
+				D099A37E234097ED00C45527 /* WeixinLogin */,
+				D099A37D234097ED00C45527 /* Products */,
+				F267FBCB69E2B39AA67EF1C2 /* Pods */,
+				A5290A2B7CDE8F726DA23B8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D099A37D234097ED00C45527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D099A37C234097ED00C45527 /* WeixinLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D099A37E234097ED00C45527 /* WeixinLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D099A37F234097ED00C45527 /* AppDelegate.h */,
+				D099A380234097ED00C45527 /* AppDelegate.m */,
+				D099A382234097ED00C45527 /* ViewController.h */,
+				D099A383234097ED00C45527 /* ViewController.m */,
+				D099A385234097ED00C45527 /* Main.storyboard */,
+				D099A388234097EF00C45527 /* Assets.xcassets */,
+				D099A38A234097EF00C45527 /* LaunchScreen.storyboard */,
+				D099A38D234097EF00C45527 /* Info.plist */,
+				D099A38E234097EF00C45527 /* main.m */,
+			);
+			path = WeixinLogin;
+			sourceTree = "<group>";
+		};
+		F267FBCB69E2B39AA67EF1C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				740FD9023FD273D1607BFDFC /* Pods-WeixinLogin.debug.xcconfig */,
+				976F670B4C006CE0D3B5F080 /* Pods-WeixinLogin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D099A37B234097ED00C45527 /* WeixinLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D099A392234097EF00C45527 /* Build configuration list for PBXNativeTarget "WeixinLogin" */;
+			buildPhases = (
+				7BFDB896D25B41199B9F4133 /* [CP] Check Pods Manifest.lock */,
+				D099A378234097ED00C45527 /* Sources */,
+				D099A379234097ED00C45527 /* Frameworks */,
+				D099A37A234097ED00C45527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeixinLogin;
+			productName = WeixinLogin;
+			productReference = D099A37C234097ED00C45527 /* WeixinLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D099A374234097ED00C45527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "夷海科技";
+				TargetAttributes = {
+					D099A37B234097ED00C45527 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D099A377234097ED00C45527 /* Build configuration list for PBXProject "WeixinLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D099A373234097ED00C45527;
+			productRefGroup = D099A37D234097ED00C45527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D099A37B234097ED00C45527 /* WeixinLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D099A37A234097ED00C45527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D099A38C234097EF00C45527 /* LaunchScreen.storyboard in Resources */,
+				D099A389234097EF00C45527 /* Assets.xcassets in Resources */,
+				D099A387234097ED00C45527 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BFDB896D25B41199B9F4133 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeixinLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D099A378234097ED00C45527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D099A384234097ED00C45527 /* ViewController.m in Sources */,
+				D099A38F234097EF00C45527 /* main.m in Sources */,
+				D099A381234097ED00C45527 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D099A385234097ED00C45527 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D099A386234097ED00C45527 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D099A38A234097EF00C45527 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D099A38B234097EF00C45527 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D099A390234097EF00C45527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D099A391234097EF00C45527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D099A393234097EF00C45527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740FD9023FD273D1607BFDFC /* Pods-WeixinLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WRV645PM5;
+				INFOPLIST_FILE = WeixinLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeixinLogin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzyhkj.WeixinLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D099A394234097EF00C45527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976F670B4C006CE0D3B5F080 /* Pods-WeixinLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WRV645PM5;
+				INFOPLIST_FILE = WeixinLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeixinLogin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzyhkj.WeixinLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D099A377234097ED00C45527 /* Build configuration list for PBXProject "WeixinLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D099A390234097EF00C45527 /* Debug */,
+				D099A391234097EF00C45527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D099A392234097EF00C45527 /* Build configuration list for PBXNativeTarget "WeixinLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D099A393234097EF00C45527 /* Debug */,
+				D099A394234097EF00C45527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D099A374234097ED00C45527 /* Project object */;
+}

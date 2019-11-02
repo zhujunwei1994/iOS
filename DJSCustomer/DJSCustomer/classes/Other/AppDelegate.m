@@ -10,6 +10,7 @@
 
 #import "ZCTabbarController.h"
 
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -28,15 +29,25 @@
 //    self.window.rootViewController = vc;
 //
     
+    // 设置全局状态栏为黑色
+//    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    
+    // 设置全局状态栏为白色
+//    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
     
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    
+    self.window.tintColor = [UIColor whiteColor];
     
 //    LoginViewController * vc = [[LoginViewController alloc]initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
     
     ZCTabbarController *tabVC = [[ZCTabbarController alloc] init];
     
-     self.window.rootViewController = tabVC;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    
+    
+     self.window.rootViewController = nav;
     
 //        self.window.rootViewController = [ViewController new];
 

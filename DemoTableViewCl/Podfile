@@ -1,0 +1,13 @@
+
+platform:ios,'13.0'
+target 'DemoTableViewCl' do
+ pod 'MJRefresh'
+ pod 'Masonry'
+ pod 'MJExtension'
+ pod 'YTKNetwork'
+ pod 'SDWebImage', '~> 5.0'
+ pod 'AFNetworking', '~> 3.0'
+end
+
+
+
